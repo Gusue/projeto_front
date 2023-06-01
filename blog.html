@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blog</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: left;
+      font-size: 15px;
+      font-weight: bold;
+    }
+    header {
+    background-color: #f2e3e3;
+    color: #ffffff;
+    padding: 1rem;
+    text-align: right;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 98%;
+}
+nav ul {
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    justify-content: center;
+    color: #ffffff;
+}
+
+nav .logo {
+    display: inline-block;
+    margin-right: 100px;
+    position: fixed;
+    top: 1%;
+    left: 0;
+    width: 5%;
+}
+nav .logo img {
+	width: 48px;
+	height: 32px;
+}
+h1 {
+      color: #333;
+      text-align: left;
+      padding: 30px;
+    }
+
+
+    label {
+      font-weight: bold;
+    }
+
+    .post {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 40px;
+      padding: 20px;
+      border-radius: 5px;
+    }
+
+    .post h2 {
+      color: #333;
+      margin-top: 0;
+    }
+
+    .post img {
+      width: 500px;
+      height: 500px;
+    }
+
+    .post p {
+      line-height: 1.2;
+      text-align: left;
+    }
+
+    .laele{
+      margin-right: 35%;
+      margin-left: 36.5%;
+    }
+  </style>
+</head>
+<body>
+  
+  <form action="processar_formulario.php" method="POST">
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="https://cdn-icons-png.flaticon.com/256/10936/10936279.png" alt="Logo">
+      </div>
+      <ul>
+        <li><a href="aeio.html">Inicial</a></li>
+            <li><a href="galera.html">Galeria</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="blog-container">
+    <div class="post">
+      <h1>O chef</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+      <img src="https://img.freepik.com/fotos-premium/almocando-homem-barbudo-cozinheiro-na-cozinha-culinaria-vegetariana-chef-maduro-com-barba-dieta-e-comida-organica-vitamina-chef-homem-de-chapeu-receita-de-sabor-secreto-cozinha-saudavel_474717-102579.jpg" alt="Imagem 1">
+      <p class="laele">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+    </div>
+
+    <div class="post">
+      <h1>A feijoada</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+      <img src="https://www.passeios.org/wp-content/uploads/2022/05/Comida-mineira.jpg" alt="Imagem 2">
+      <p class="laele">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+    </div>
+
+    <div class="post">
+      <h1>O cafe da manha</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+      <img src="https://i.pinimg.com/originals/87/82/4c/87824c333146d562d88c05caae604a85.jpg" alt="Imagem 3">
+      <p class="laele">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+    </div>
+
+    <div class="post">
+      <h1>O cafe da tarde</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+      <img src="https://blog.duogourmet.com.br/wp-content/uploads/2019/07/10-Duo-Gourmet-Culinaria.jpg" alt="Imagem 4">
+      <p class="laele">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+    </div>
+
+    <div class="post">
+      <h1>A janta</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+      <img src="https://pureviagem.com.br/wp-content/uploads/2020/04/49897110_589069384864058_8805213204872429568_n.jpg" alt="Imagem 5">
+      <p class="laele">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+    </div>
+  </div>
+
+</body>
+</html>
